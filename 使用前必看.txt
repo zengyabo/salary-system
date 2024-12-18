@@ -1,0 +1,26 @@
+#### 首先要有node工具（建议使用16的版本）
+
+##### npm使用国内淘宝镜像的方法 (非必要设置，设置后下载速度会变快)
+
+npm config set registry https://registry.npmmirror.com
+
+
+
+#### 开始使用
+
+1. 直接打开 Springboot文件夹，然后cd 到vue，执行 npm i 安装依赖
+2. 一定要配置 springboot的application.yml里面的数据库名称和密码，还要file.path，改成你自己的文件夹目录
+3. 改完这些启动springboot 和 vue项目，启动成功后打开浏览器，输入：localhost:8080, 账号：admin/admin
+
+
+
+#### 技术简介
+
+后台技术：Springboot、SpringMVC、Mybatis-plus、hutool工具包、JWT
+
+前台：Vue2全家桶、axios、ElementUI
+
+数据库：Mysql
+
+项目访问：http://localhost:8080 (需要启动vue项目)
+账号： admin/admin
